@@ -30,7 +30,7 @@
   <groupId>maven-org.mybatis</groupId>
   <version>maven-6.0.2-SNAPSHOT</version>
   <artifactId>maven-jpetstore</artifactId>
-  <packaging>jar</packaging>
+  <packaging>war</packaging>
 
    <name>JPetStore</name>
   <url>http://www.mybatis.org</url>

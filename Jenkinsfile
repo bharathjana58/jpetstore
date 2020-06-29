@@ -21,6 +21,13 @@ pipeline {
             sh 'mvn clean package -DskipTests'
 	     }
 	  }
+		stage('Jenkins-Node') {
+      steps {
+        node('tomcat'){
+         checkout scm
+                 }
+      }
+    } 
 	
     }
 }

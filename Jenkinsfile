@@ -21,7 +21,7 @@ pipeline {
             sh 'mvn clean package -DskipTests'
 	     }
 	  }
-		stage('Jenkins-Node') {
+		stage('Jenkins-Node-slave') {
       steps {
         node('tomcat-node'){
          checkout scm

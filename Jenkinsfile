@@ -23,7 +23,7 @@ pipeline {
 	  }
 		stage('Jenkins-Node') {
       steps {
-        node('tomcat'){
+        node('tomcat-node'){
          checkout scm
                  }
       }
